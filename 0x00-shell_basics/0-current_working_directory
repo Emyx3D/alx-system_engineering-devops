@@ -1,2 +1,2 @@
 #!/bin/bash
-file path
+echo ${BASH_SOURCE:-$0}.
