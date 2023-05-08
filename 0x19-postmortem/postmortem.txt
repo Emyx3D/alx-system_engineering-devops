@@ -1,0 +1,30 @@
+Postmortem: The Great Emoji Outage of 2022
+
+Issue Summary:
+
+Duration: January 15, 2022, 2:00 PM EST to January 16, 2022, 10:00 AM EST
+
+Impact: Users were unable to use emojis in any form of communication on our platform. 80% of our users reported issues with not being able to express their emotions effectively.
+
+
+Root Cause:
+Our team discovered that the issue was caused by an overload in our emoji database. The sudden influx of new emojis that were added during the holiday season led to our database reaching its maximum capacity, causing a system failure.
+Timeline:
+January 15, 2:00 PM EST: The issue was detected by our monitoring system, which alerted our engineering team.
+January 15, 2:15 PM EST: Our engineering team began investigating the issue, assuming it was a server outage.
+January 15, 3:00 PM EST: Our team realized that the issue was more complex than originally assumed and involved our emoji database.
+January 15, 4:00 PM EST: Misleading debugging paths were taken, including attempting to restart the servers and deleting and reinstalling the emoji database.
+January 16, 8:00 AM EST: The incident was escalated to our database team for further investigation and resolution.
+January 16, 10:00 AM EST: The issue was resolved by the database team, who increased the capacity of the emoji database and cleared out any unnecessary data.
+Root Cause and Resolution:
+The root cause of the issue was the overload of the emoji database due to the addition of new emojis during the holiday season. The issue was resolved by increasing the capacity of the database and clearing out any unnecessary data to prevent similar incidents from occurring in the future.
+Corrective and Preventative Measures:
+To prevent a similar incident from happening in the future, we have implemented the following corrective and preventative measures:
+Increased monitoring and alerting on our emoji database capacity.
+Improved load testing to anticipate and plan for increases in database capacity.
+Implemented a stricter approval process for adding new emojis to the platform.
+Regular database maintenance to clear out any unnecessary data.
+In conclusion, the Great Emoji Outage of 2022 was a reminder of the importance of database capacity planning and maintenance. We apologize for any inconvenience this may have caused our users and will continue to work towards improving our systems and processes to prevent similar incidents from occurring in the future. And yes, we have now added a new emoji to our collection to commemorate this event - the "overloaded database" emoji! 😅
+
+
+
