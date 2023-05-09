@@ -1,9 +1,10 @@
 0x19-postmortem
-Postmortem Report: Network Outage on May 15, 2023
+
+Postmortem Report: Network Outage on May 10, 2023
 
 Issue Summary:
 
-On May 15, 2023, from 2:00 PM to 5:00 PM EDT, users experienced a complete outage of our cloud-based storage service, resulting in the inability to access stored data. Approximately 75% of users were affected by this outage.
+On May 10, 2023, from 2:00 PM to 5:00 PM EDT, users experienced a complete outage of our cloud-based storage service, resulting in the inability to access stored data. Approximately 75% of users were affected by this outage.
 
 Timeline:
 
